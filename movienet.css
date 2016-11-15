@@ -1,0 +1,130 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+.header {
+  color: #FFF;
+}
+
+.container {
+  max-width: 970px;
+}
+
+.header ul li {
+  color: #FFF;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.supporting {
+  background-image: url(diagmonds_@2X.png);
+  background-size: 141px 142px;
+  text-align: center;
+}
+
+h2 {
+  color: #0393ff;
+  text-align: center;
+}
+
+p {
+  color: #FFF;
+  text-align: center;
+}
+
+.img-thumbnail {
+  margin-bottom: 2.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jumbotron {
+  background: #000;
+}
+
+
+.btn:hover {
+    color: #fff;
+    background-color: #0393ff;
+}
+
+.btn {
+  color: #0393ff;
+  background: transparent;
+  border: 1px solid #0393ff;
+  border-radius: 2px;
+  padding: 8px 40px;
+  margin: 20px
+}
+
+.main {
+  background: #000;
+  text-align: center;
+  color: #FFF;
+  padding: 20px;
+  margin-top: -30px;
+}
+
+.form-inline {
+  background: #000;
+  text-align: center;
+}
+
+#search {
+        background:transparent; 
+        border:0px; 
+        border-radius:0; 
+        border-bottom:1px solid #fff;
+        color:#fff;
+        font-size:18px; 
+        margin:0 20px; 
+        width:400px;
+      }
+
+#search:hover {
+    border-color: #0393ff;
+}
+
+.feature {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+.feature h2 {
+  margin-top: 150px;
+  font-size: 32px;
+}
+
+.feature p {
+  font-size: 18px;
+}
+
+.footer {
+  background: #000;
+}
+
+.footer h3 {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer ul li {
+  color: #0393ff;
+  list-style-type: none;
+  margin-left: -40px;
+}
